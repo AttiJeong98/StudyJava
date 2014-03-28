@@ -1,0 +1,7 @@
+class StudyJava2 {
+public static void main(String[] args) {
+byte smallnum; // -128~127 작은 숫자를 표현할떄 쓰인다. 1바이트의 공간을 차지한다.
+char name; // 보통 문자를 표현할떄 쓰이면서 0 ~ 65,535 2바이트의 공간을 차지한다.
+int normal;
+/* 우리들이 쓰는 컴퓨터는 byte든 char이든 정수범위에서는 int로 바꿔서 빌드해버리기 떄문에 바이트가 조금 차이나는 경우에는.
+정수범위에선. 자바에선. 쓰길 바란다.
